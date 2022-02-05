@@ -5,9 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <div class="title">
+        <h1>Rock Paper Scissors!</h1>
+    </div>
+    <div class="btn-container">
+        <button class="btn" id="rock"><img src="https://www.pinclipart.com/picdir/big/537-5378614_transparent-igneous-rocks-clipart-stone-clip-art-png.png"></button>
+        <button class="btn" id="paper"><img src="https://clipart.world/wp-content/uploads/2020/08/ancient-scroll-png-transparent.png"></button>
+        <button class="btn" id="scissors"><img src="http://www.clker.com/cliparts/L/j/b/i/0/H/scissors-hi.png"></button>
+    </div>
+    <div class="bottom">
+        <div class="scores">
+            <h3 id="playerScoreText">Player Score:</h3>
+            <h3 id="compScoreText">Computer Score:</h3>
+        </div>
+        <h2 id="result">Result</h2>
+    </div>
 </body>
 </html>
